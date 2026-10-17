@@ -6,6 +6,8 @@ __pycache__/
 .vscode/
 
 study/LeNet/data/
+study/AlexNet/data/
+study/AlexNet/data_name/
 
 *.pth
 *.pt

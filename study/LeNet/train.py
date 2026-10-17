@@ -65,7 +65,7 @@ def train(dataloader,model,loss_fn,optimizer):
         cur_loss = loss_fn(output,y)
         _,pred = torch.max(output,axis=1)
 
-        cur_acc = torch.sum(y == pred)/output.shape[0]
+        cur_acc = torch.sum(y == pred) / output.shape[0]
 
         #反向传播
         optimizer.zero_grad()
